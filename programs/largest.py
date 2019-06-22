@@ -1,3 +1,6 @@
-a=input()
+a=(input())
 b=a.split()
-print(max(b))
+if int(max(b))<0:
+  print(min(b))
+else:
+  print(max(b))
